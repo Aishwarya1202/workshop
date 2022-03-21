@@ -29,6 +29,10 @@ import {
 const structure = [
   //Changing name of game to event
   { id: 0, label: "Event", link: "/app/game", icon: <GameIcon /> },
+  { id: 1, label: "khel", link: "/app/khel", icon: <GameIcon /> },
+  { id: 2, label: "Blogs", link: "/app/blogs", icon: <LibraryIcon /> },
+  { id: 3, label: "Feedback", link: "/app/feedback", icon: <SupportIcon /> },
+  { id: 4, label: "Logout", link: "/app/game", icon: <GameIcon /> },
 
   // {
   //   id: 1,
