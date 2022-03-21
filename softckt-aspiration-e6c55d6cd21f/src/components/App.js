@@ -21,6 +21,10 @@ export default function App() {
       <Switch>
         <Route exact path="/" render={() => <Redirect to="/app/game" />} />
         <Route exact path="/app" render={() => <Redirect to="/app/game" />} />
+        <Route exact path="/blogs" render={() => <Redirect to="/app/blogs" />} />
+        <Route exact path="/feedback" render={() => <Redirect to="/app/feedback" />} />
+        <Route exact path="/khel" render={() => <Redirect to="/app/khel" />} />
+        <Route exact path="/logout" render={() => <Redirect to="/app/game" />} />
 
         <PrivateRoute path="/app" component={Layout} />
         <Route path="/login" component={Login} />
