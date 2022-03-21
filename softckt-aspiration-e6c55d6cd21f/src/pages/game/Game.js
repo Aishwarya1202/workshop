@@ -84,7 +84,6 @@ export default function TypographyPage() {
                 href="https://app.softckt.com"
               color="Primary" 
               variant="contained">Click here to Register</Button>
-              
               </Typography>
             </div>
           {/* </Widget> */}
